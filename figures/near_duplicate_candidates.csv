@@ -1,0 +1,5 @@
+a,b,split_a,split_b,class_a,class_b,dist,flipped,leak_risk,label_conflict
+s40_21b8df1d9d9c4dded03f,s40_ca7ab8e14b30f790812e,val,test,running,climbing,4,False,True,True
+s40_10cf825ec96bc7c6b82c,s40_5cc4849ce749f204ee96,train,test,jumping,jumping,6,True,True,False
+s40_21b8df1d9d9c4dded03f,s40_65cc43e103a23fe243d3,val,train,running,running,3,False,False,False
+s40_21b8df1d9d9c4dded03f,s40_8f760b0952305f0ad06d,val,train,running,jumping,6,False,False,True
