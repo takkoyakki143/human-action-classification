@@ -73,14 +73,15 @@ Notebook 실행에 필요한 `ipykernel`은 프로젝트 의존성에 포함합�
 
 ## 4. 수행 내역
 
-직접 수행한 작업과 주요 판단을 정리합니다. 무엇을 분석·구현·검증했으며 어떤 결과를 남겼는지 관련 자료와 연결하여 작성합니다.
+직접 수행한 작업과 주요 판단을 다음과 같이 정리했습니다.
 
 | 작업 구분 | 직접 수행한 작업 | 근거 자료 |
 |---|---|---|
-|  |  | 관련 코드·분석 결과·문서 등 |
-|  |  |  |
-
-수행 내역은 본인이 실제로 진행한 작업을 기준으로 작성합니다.
+| 데이터 구조·품질 점검 | 전체 2,031장의 파일 존재, 클래스 매핑, 분할 출처를 확인하고 모든 이미지를 열어 손상·색 모드·흑백 여부를 점검했습니다. 원본 파일명의 행동 이름과 라벨을 대조하여 라벨 연결 오류, 손상, RGB 외 이미지가 모두 0건임을 확인했습니다. `group_id`는 이미지마다 고유하여 사람 단위 분할 정보로 사용할 수 없음을 확인했습니다. | [`notebooks/01_eda.ipynb`](notebooks/01_eda.ipynb) 1·4번 섹션, [`figures/image_quality_table.csv`](figures/image_quality_table.csv), [`figures/eda_summary.csv`](figures/eda_summary.csv) |
+| 클래스 분포 분석·평가 지표 선정 | Train·Validation은 클래스별 80/20장으로 균형이지만, Test는 최대 2.31배 불균형(승마 196장, 보트 노 젓기 85장)임을 확인했습니다. 가장 적은 클래스를 모두 틀려도 Accuracy는 6.9%p만 낮아지지만 Macro 지표는 약 12.5%p 낮아지는 점을 근거로 Macro F1을 핵심 지표로 정했습니다. | `01_eda.ipynb` 2번 섹션, [`figures/01_class_distribution.png`](figures/01_class_distribution.png) |
+| 이미지 특성 분석·전처리 기준 수립 | 종횡비가 0.46~2.79로 다양하고 클래스별로 세로형(등반·점프·달리기)과 가로형(승마·활쏘기·보트)이 나뉨을 확인했습니다. Center Crop은 클래스 평균 원본 면적의 약 43~47%를 잘라내 가장자리의 노·활이 사라지는 사례가 있어, 종횡비를 유지하는 Resize + Padding(224×224, ImageNet 평균색 여백)을 기본 전처리로 정했습니다. | `01_eda.ipynb` 3·7번 섹션, [`figures/02_size_aspect.png`](figures/02_size_aspect.png), [`figures/06_crop_vs_pad.png`](figures/06_crop_vs_pad.png) |
+| 중복·데이터 누수 점검 | 지각 해시(dHash)와 사전학습 ResNet18 특징 벡터의 코사인 유사도, 두 가지 방법으로 분할 간 중복을 점검했습니다. dHash 후보 4쌍은 육안 확인 결과 모두 다른 사진이었고, Test 사진별 최근접 학습 사진의 상위 쌍에서도 동일 사진은 없었습니다. 다만 같은 행사·촬영 세션의 사진이 Train과 Test에 나뉘어 있음을 발견하여, 고정된 분할은 유지하고 결과 해석의 한계로 기록했습니다. 육안 판정은 Notebook 코드에 기록하여 검토표를 재현 가능하게 생성했습니다. | `01_eda.ipynb` 5·9·10번 섹션, [`figures/04_near_duplicates.png`](figures/04_near_duplicates.png), [`figures/07_nn_similarity_hist.png`](figures/07_nn_similarity_hist.png), [`results/duplicate_review.csv`](results/duplicate_review.csv) |
+| 오류 분석 가설 사전 정리 | 클래스별 샘플과 EDA 결과를 바탕으로 점프↔달리기 혼동(자세·배경 유사), Padding 여백 모양 의존, 저해상도에서 작은 원반 누락, 행사·세션 단서 의존의 네 가지 가설을 정리했습니다. Test 사진별 최근접 학습 사진 유사도를 저장해 두어, 최종 Test 평가 후 세션 단서 의존 여부를 확인할 수 있도록 했습니다. | `01_eda.ipynb` 6·9번 섹션, [`figures/05_class_samples.png`](figures/05_class_samples.png), [`results/test_nearest_trainval.csv`](results/test_nearest_trainval.csv) |
 
 ## 5. 문제 해결 과정
 
