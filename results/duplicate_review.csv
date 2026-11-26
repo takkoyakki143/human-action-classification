@@ -1,0 +1,51 @@
+﻿pair_id,a,b,split_a,split_b,class_a,class_b,found_by,rank_dhash,rank_emb_overall,rank_emb_test,dhash_dist,emb_sim,leak_risk,label_conflict,reviewed,relation,is_duplicate,note,hint
+0,s40_254066e9bdcc64a57e3e,s40_8adde4fdd24e68673fbf,test,train,rowing_a_boat,rowing_a_boat,"emb_overall, emb_test",,0.0,0.0,31,0.9544,True,False,True,같은 장소·다른 인물,N,"같은 강·같은 1인용 보트·비슷한 각도, 노 젓는 사람이 다름",
+1,s40_66f23ddad210a4afff0c,s40_07ccaf027a4b78a370e7,test,train,rowing_a_boat,rowing_a_boat,"emb_overall, emb_test",,1.0,1.0,33,0.9397,True,False,True,같은 장소·다른 인물,N,"같은 수면 배경·비슷한 구도의 보트, 인물 다름",
+2,s40_9aa009dbd9a3ede0a519,s40_d6a2df49269213cfd462,test,train,riding_a_bike,riding_a_bike,"emb_overall, emb_test",,2.0,2.0,19,0.939,True,False,True,같은 행사·세션,N,"같은 '2007' 노란 행사 티셔츠, 같은 자전거 행사",
+3,s40_323e4ead92f19dcb5624,s40_8c5a58da603314aa4bab,test,train,throwing_frisby,throwing_frisby,"emb_overall, emb_test",,4.0,3.0,27,0.9365,True,False,True,같은 행사·세션,N,같은 NMH 팀 유니폼·같은 잔디밭,
+4,s40_843158ab3bcffb756a04,s40_8c5a58da603314aa4bab,test,train,throwing_frisby,throwing_frisby,"emb_overall, emb_test",,6.0,4.0,23,0.9342,True,False,True,같은 행사·세션,N,같은 NMH 팀 유니폼·같은 잔디밭,
+5,s40_56fcad6e634bb5b8363a,s40_c439cbd12bfb725ba849,test,train,throwing_frisby,throwing_frisby,"emb_overall, emb_test",,8.0,5.0,21,0.9326,True,False,True,같은 인물·다른 순간,N,"빨간 머리·흰 민소매·줄무늬 반바지·노란 손목밴드 동일, 같은 장소",
+6,s40_5cc4849ce749f204ee96,s40_10cf825ec96bc7c6b82c,test,train,jumping,jumping,dhash,1.0,,,6,0.7118,True,False,True,다른 사진,N,둘 다 해변 점프지만 다른 인물·장소. dHash 오탐,
+7,s40_ca7ab8e14b30f790812e,s40_21b8df1d9d9c4dded03f,test,val,climbing,running,dhash,0.0,,,4,0.6592,True,True,True,다른 사진,N,트랙 달리기 vs 벽돌 벽 등반. dHash 오탐,
+8,s40_21b8df1d9d9c4dded03f,s40_65cc43e103a23fe243d3,val,train,running,running,dhash,2.0,,,3,0.731,False,False,True,다른 사진,N,트랙 달리기 vs 해변 달리기. 위아래 밝기 구조만 비슷,
+9,s40_21b8df1d9d9c4dded03f,s40_8f760b0952305f0ad06d,val,train,running,jumping,dhash,3.0,,,6,0.6984,False,True,True,다른 사진,N,트랙 달리기 vs 해변 점프. 위아래 밝기 구조만 비슷,
+10,s40_f2fe7e0dcc49d6163ff6,s40_3941f2567f43c4fee2b3,test,train,climbing,climbing,"emb_overall, emb_test",,10.0,6.0,21,0.9319,True,False,False,,,,
+11,s40_3438374fe14b584b63af,s40_4c1250403eb71799d08d,test,train,throwing_frisby,throwing_frisby,"emb_overall, emb_test",,11.0,7.0,33,0.9287,True,False,False,,,,
+12,s40_16e72c3be465c508a887,s40_8c5a58da603314aa4bab,test,train,throwing_frisby,throwing_frisby,"emb_overall, emb_test",,13.0,8.0,26,0.9264,True,False,False,,,,확인된 세션 사진과 같은 이미지 공유 → 같은 세션인지 확인
+13,s40_254066e9bdcc64a57e3e,s40_28fca0d3fd3036bf22d8,test,train,rowing_a_boat,rowing_a_boat,emb_overall,,14.0,,21,0.9264,True,False,False,,,,
+14,s40_254066e9bdcc64a57e3e,s40_faf936df35cdd9748897,test,train,rowing_a_boat,rowing_a_boat,emb_overall,,15.0,,14,0.9259,True,False,False,,,,
+15,s40_0f849125344b5a62a371,s40_7f1e8c2121fb1dbe07f0,test,train,riding_a_bike,riding_a_bike,"emb_overall, emb_test",,23.0,9.0,24,0.9208,True,False,False,,,,
+16,s40_7bc8037bf182869abd9f,s40_52436e7359e9e5f1c80a,test,train,rowing_a_boat,rowing_a_boat,"emb_overall, emb_test",,25.0,10.0,28,0.9195,True,False,False,,,,
+17,s40_d07389568a48ce1de43a,s40_dfdc51e6a263cf5ba868,test,train,running,running,"emb_overall, emb_test",,26.0,11.0,31,0.9195,True,False,False,,,,
+18,s40_c24618579415ccdd16f2,s40_8c81c5c0ef511c5dd0ea,test,val,rowing_a_boat,rowing_a_boat,"emb_overall, emb_test",,27.0,12.0,37,0.9187,True,False,False,,,,
+19,s40_8dfb362eae5a89f1f97f,s40_123bd476b38b466495ce,test,train,shooting_an_arrow,shooting_an_arrow,"emb_overall, emb_test",,29.0,13.0,30,0.9185,True,False,False,,,,
+20,s40_9aaee766743e5089a6eb,s40_63734a4aaddc557ed7d8,test,val,jumping,jumping,emb_test,,,14.0,23,0.917,True,False,False,,,,
+21,s40_36be2b88c8dc8d7afc3d,s40_d6a2df49269213cfd462,test,train,riding_a_bike,riding_a_bike,emb_test,,,15.0,19,0.9166,True,False,False,,,,확인된 세션 사진과 같은 이미지 공유 → 같은 세션인지 확인
+22,s40_7eb3a78b5a5c9c3797d1,s40_4ea34e7785bd0d2f6132,test,val,rowing_a_boat,rowing_a_boat,emb_test,,,16.0,30,0.9154,True,False,False,,,,
+23,s40_77458e5d88e37239116b,s40_7dc469b18c9a48181ab1,test,train,running,running,emb_test,,,17.0,13,0.9151,True,False,False,,,,
+24,s40_58515c872f2eb698d797,s40_d6a2df49269213cfd462,test,train,riding_a_bike,riding_a_bike,emb_test,,,18.0,17,0.9148,True,False,False,,,,확인된 세션 사진과 같은 이미지 공유 → 같은 세션인지 확인
+25,s40_f112de999e3212cebec3,s40_89902a1cfc8e7d2a166e,test,val,throwing_frisby,throwing_frisby,emb_test,,,19.0,22,0.9146,True,False,False,,,,
+26,s40_27bf830adf9c75589f69,s40_6467886140fa72df84a2,test,train,climbing,climbing,emb_test,,,20.0,24,0.9145,True,False,False,,,,
+27,s40_97f5f12c30bf8ba5c45f,s40_c439cbd12bfb725ba849,test,train,throwing_frisby,throwing_frisby,emb_test,,,21.0,31,0.9141,True,False,False,,,,확인된 세션 사진과 같은 이미지 공유 → 같은 세션인지 확인
+28,s40_dc3a1775cbf0c2fd6298,s40_8c5a58da603314aa4bab,test,train,throwing_frisby,throwing_frisby,emb_test,,,22.0,22,0.9136,True,False,False,,,,확인된 세션 사진과 같은 이미지 공유 → 같은 세션인지 확인
+29,s40_b39bbff4babb03f5d02f,s40_4c1250403eb71799d08d,test,train,throwing_frisby,throwing_frisby,emb_test,,,23.0,26,0.9132,True,False,False,,,,
+30,s40_db32c29108f0122a4cf9,s40_da0d53b2bef087175ff3,test,train,riding_a_horse,riding_a_horse,emb_test,,,24.0,26,0.9125,True,False,False,,,,
+31,s40_3b903c8d62814bbf35b0,s40_f8c18b6707a819e483ec,test,train,riding_a_bike,riding_a_bike,emb_test,,,25.0,24,0.9125,True,False,False,,,,
+32,s40_819972b4dcc330d58fc3,s40_8c5a58da603314aa4bab,test,train,throwing_frisby,throwing_frisby,emb_test,,,26.0,29,0.9122,True,False,False,,,,확인된 세션 사진과 같은 이미지 공유 → 같은 세션인지 확인
+33,s40_46944caa180a6576bfaf,s40_85ff44e77398a9289d94,test,train,rowing_a_boat,rowing_a_boat,emb_test,,,27.0,20,0.9101,True,False,False,,,,
+34,s40_15dd663daaf4866f95cb,s40_ae606d30f99b3205782a,test,train,running,running,emb_test,,,28.0,22,0.9099,True,False,False,,,,
+35,s40_844f20b1dfb1c6036fd4,s40_d1058295626874d693bc,test,train,throwing_frisby,throwing_frisby,emb_test,,,29.0,21,0.9096,True,False,False,,,,
+36,s40_254066e9bdcc64a57e3e,s40_9aa4990cf0464231f1fd,test,test,rowing_a_boat,rowing_a_boat,emb_overall,,3.0,,25,0.9376,False,False,False,,,,
+37,s40_16e72c3be465c508a887,s40_3438374fe14b584b63af,test,test,throwing_frisby,throwing_frisby,emb_overall,,5.0,,30,0.9352,False,False,False,,,,
+38,s40_2f8ef13dfdd75fba6e4c,s40_faf936df35cdd9748897,train,train,rowing_a_boat,rowing_a_boat,emb_overall,,7.0,,27,0.9339,False,False,False,,,,
+39,s40_3438374fe14b584b63af,s40_843158ab3bcffb756a04,test,test,throwing_frisby,throwing_frisby,emb_overall,,9.0,,22,0.932,False,False,False,,,,확인된 세션 사진과 같은 이미지 공유 → 같은 세션인지 확인
+40,s40_323e4ead92f19dcb5624,s40_dc3a1775cbf0c2fd6298,test,test,throwing_frisby,throwing_frisby,emb_overall,,12.0,,27,0.9278,False,False,False,,,,확인된 세션 사진과 같은 이미지 공유 → 같은 세션인지 확인
+41,s40_d9a385473f1fe184ca30,s40_e73b07d48cb8e8f3793e,test,test,riding_a_bike,riding_a_bike,emb_overall,,16.0,,27,0.9244,False,False,False,,,,
+42,s40_2f8ef13dfdd75fba6e4c,s40_8c81c5c0ef511c5dd0ea,train,val,rowing_a_boat,rowing_a_boat,emb_overall,,17.0,,26,0.9235,False,False,False,,,,
+43,s40_6ea84c7d9b089cf3d3af,s40_ba6fe26139f74c81b17c,train,train,riding_a_bike,riding_a_bike,emb_overall,,18.0,,26,0.9233,False,False,False,,,,
+44,s40_79b8d59d57f46ddcd9e5,s40_8c81c5c0ef511c5dd0ea,train,val,rowing_a_boat,rowing_a_boat,emb_overall,,19.0,,38,0.9224,False,False,False,,,,
+45,s40_6876b378aee7cd1447d9,s40_97f5f12c30bf8ba5c45f,test,test,throwing_frisby,throwing_frisby,emb_overall,,20.0,,24,0.922,False,False,False,,,,
+46,s40_12f5521a60f55ceb7607,s40_7dc469b18c9a48181ab1,train,train,running,running,emb_overall,,21.0,,33,0.9213,False,False,False,,,,
+47,s40_0f8b8bffcc8a54673f05,s40_81059d0c2b9e4f7cc4f2,test,test,riding_a_bike,riding_a_bike,emb_overall,,22.0,,31,0.921,False,False,False,,,,
+48,s40_4c1250403eb71799d08d,s40_8c5a58da603314aa4bab,train,train,throwing_frisby,throwing_frisby,emb_overall,,24.0,,23,0.9205,False,False,False,,,,확인된 세션 사진과 같은 이미지 공유 → 같은 세션인지 확인
+49,s40_89902a1cfc8e7d2a166e,s40_d35a6dcf70eee9629f0e,val,val,throwing_frisby,throwing_frisby,emb_overall,,28.0,,37,0.9186,False,False,False,,,,
