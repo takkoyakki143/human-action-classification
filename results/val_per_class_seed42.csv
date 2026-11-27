@@ -1,0 +1,10 @@
+﻿,f1-score,recall,precision,f1-score,recall,precision,f1-score,recall,precision
+,scratch,scratch,scratch,feature_extraction,feature_extraction,feature_extraction,fine_tuning,fine_tuning,fine_tuning
+0 climbing (등반),0.821,0.8,0.842,0.952,1.0,0.909,0.976,1.0,0.952
+1 jumping (점프),0.424,0.35,0.538,0.857,0.9,0.818,0.756,0.85,0.68
+2 riding_a_bike (자전거 타기),0.732,0.75,0.714,0.93,1.0,0.87,0.927,0.95,0.905
+3 riding_a_horse (승마),0.421,0.4,0.444,0.923,0.9,0.947,0.895,0.85,0.944
+4 rowing_a_boat (보트 노 젓기),0.756,0.85,0.68,0.974,0.95,1.0,0.976,1.0,0.952
+5 running (달리기),0.278,0.25,0.312,0.727,0.6,0.923,0.765,0.65,0.929
+6 shooting_an_arrow (활쏘기),0.41,0.4,0.421,0.87,1.0,0.769,0.927,0.95,0.905
+7 throwing_frisby (프리스비 던지기),0.571,0.7,0.483,0.778,0.7,0.875,0.821,0.8,0.842
