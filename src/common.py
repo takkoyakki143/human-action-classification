@@ -91,3 +91,36 @@ class ActionDataset(Dataset):
         with Image.open(DATA_DIR / row["image_path"]) as img:
             x = self.transform(img.convert("RGB"))   # 흑백·CMYK 사진도 RGB 3채널로 통일
         return x, int(row["target_id"])              # (사진 텐서, 정답 번호)
+
+
+# ════════════════════════════════════════════════════════════
+# 04 개선 실험용 전처리 (04_modeling에서 추가)
+# 위의 IMG_SIZE, eval_transform, train_transform은 03 기준선이 쓰므로 절대 바꾸지 않고,
+# 크기나 증강이 다른 전처리는 아래 함수로 '새로' 만들어 쓴다.
+# ════════════════════════════════════════════════════════════
+def make_eval_transform(size=IMG_SIZE):
+    """크기만 바꿀 수 있는 고정 전처리 (Val/Test용, 무작위 요소 없음). size=224면 eval_transform과 같은 결과."""
+    return transforms.Compose([
+        ResizePad(size),
+        transforms.ToTensor(),
+        transforms.Normalize(MEAN, STD),
+    ])
+
+
+# H3 약한 증강 설정 (04에서 팀이 확정한 값)
+AUG_FLIP_P = 0.5                                                        # 좌우 반전 확률
+AUG_COLOR = dict(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.0)  # 밝기·대비·채도 ±20%, 색조는 바꾸지 않음
+
+
+def make_train_transform(size=IMG_SIZE, augment=False):
+    """Train 전처리. augment=True면 Resize+Padding '전에' 사진에만 약한 증강을 적용한다.
+    (Padding 뒤에 색을 바꾸면 회색 여백 색까지 바뀌어 Val과 여백 모양이 달라지기 때문)"""
+    if not augment:
+        return make_eval_transform(size)        # 증강 없음 = Val과 같은 고정 전처리
+    return transforms.Compose([
+        transforms.RandomHorizontalFlip(p=AUG_FLIP_P),   # 50% 확률로 좌우 뒤집기
+        transforms.ColorJitter(**AUG_COLOR),             # 밝기·대비·채도를 조금씩 무작위로 바꾸기
+        ResizePad(size),
+        transforms.ToTensor(),
+        transforms.Normalize(MEAN, STD),
+    ])
