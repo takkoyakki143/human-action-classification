@@ -1,0 +1,2 @@
+experiment_name,split,epoch,loss,accuracy,macro_precision,macro_recall,macro_f1
+scratch_baseline,validation,29,1.9175747632980347,0.5875,0.5878977272727273,0.5875,0.5837300163968026
