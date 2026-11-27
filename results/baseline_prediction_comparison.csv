@@ -1,0 +1,161 @@
+﻿image_id,image_path,y_true,class_name,scratch_y_pred,scratch_predicted_class,scratch_confidence,scratch_correct,fe_y_pred,fe_predicted_class,fe_confidence,fe_correct,ft_y_pred,ft_predicted_class,ft_confidence,ft_correct
+s40_0216b979b86639cf5693,images/val/s40_0216b979b86639cf5693.jpg,5,running,1,Jumping,0.9723648428916931,False,5,Running,0.59036785364151,True,5,Running,0.9090989828109741,True
+s40_029af1e3d7b9729f517c,images/val/s40_029af1e3d7b9729f517c.jpg,7,throwing_frisby,5,Running,0.8278980851173401,False,5,Running,0.6378815770149231,False,5,Running,0.9882482886314392,False
+s40_02d39f1725b5d618f932,images/val/s40_02d39f1725b5d618f932.jpg,2,riding_a_bike,2,Riding Bike,0.9112130403518677,True,2,Riding Bike,0.9998888969421387,True,2,Riding Bike,0.9999974966049194,True
+s40_0318ccfcfa1ee7a6bd3a,images/val/s40_0318ccfcfa1ee7a6bd3a.jpg,0,climbing,6,Shooting Arrow,0.9896044731140137,False,0,Climbing,0.9953369498252869,True,0,Climbing,0.9998613595962524,True
+s40_036fd8dc9a335330714a,images/val/s40_036fd8dc9a335330714a.jpg,6,shooting_an_arrow,5,Running,0.5240846872329712,False,6,Shooting Arrow,0.964163601398468,True,6,Shooting Arrow,0.9999780654907227,True
+s40_04058d1f29ea3929d31c,images/val/s40_04058d1f29ea3929d31c.jpg,1,jumping,6,Shooting Arrow,0.789883017539978,False,6,Shooting Arrow,0.7085168361663818,False,6,Shooting Arrow,0.9743205904960632,False
+s40_058e0f42bb44d06e08db,images/val/s40_058e0f42bb44d06e08db.jpg,0,climbing,3,Riding Horse,0.4731561541557312,False,0,Climbing,0.9513944983482361,True,0,Climbing,0.9913533329963684,True
+s40_05fe2210e23b14a42366,images/val/s40_05fe2210e23b14a42366.jpg,0,climbing,2,Riding Bike,0.5175896883010864,False,0,Climbing,0.9989089965820312,True,0,Climbing,0.9999266862869263,True
+s40_07438de0d50b0254f484,images/val/s40_07438de0d50b0254f484.jpg,7,throwing_frisby,7,Throwing Frisbee,0.575203001499176,True,7,Throwing Frisbee,0.7563372254371643,True,7,Throwing Frisbee,0.8485814929008484,True
+s40_08ea3fb51a13897f9003,images/val/s40_08ea3fb51a13897f9003.jpg,0,climbing,0,Climbing,0.7221155762672424,True,0,Climbing,0.8177021741867065,True,0,Climbing,0.9999825954437256,True
+s40_095e4ae395f5b0a66a65,images/val/s40_095e4ae395f5b0a66a65.jpg,5,running,6,Shooting Arrow,0.9922388792037964,False,6,Shooting Arrow,0.3589340150356293,False,0,Climbing,0.5633714199066162,False
+s40_0cbc5a88c52f0c3504ad,images/val/s40_0cbc5a88c52f0c3504ad.jpg,2,riding_a_bike,2,Riding Bike,0.8901175260543823,True,2,Riding Bike,0.9981268048286438,True,2,Riding Bike,0.999896764755249,True
+s40_0f6e1676f29b6925e30d,images/val/s40_0f6e1676f29b6925e30d.jpg,2,riding_a_bike,2,Riding Bike,0.8346752524375916,True,2,Riding Bike,0.4761870503425598,True,2,Riding Bike,0.7179375290870667,True
+s40_11742b75ade8e86bc7c1,images/val/s40_11742b75ade8e86bc7c1.jpg,0,climbing,0,Climbing,0.8099823594093323,True,0,Climbing,0.8500893712043762,True,0,Climbing,0.9996829032897949,True
+s40_14174cf1a88caf8785bc,images/val/s40_14174cf1a88caf8785bc.jpg,3,riding_a_horse,6,Shooting Arrow,0.9121639132499695,False,3,Riding Horse,0.9755421876907349,True,3,Riding Horse,0.970365047454834,True
+s40_186d2fde4f04ceef73eb,images/val/s40_186d2fde4f04ceef73eb.jpg,1,jumping,1,Jumping,0.4050624370574951,True,1,Jumping,0.797092080116272,True,1,Jumping,0.9918253421783447,True
+s40_19ce03e123d5e52fdaa1,images/val/s40_19ce03e123d5e52fdaa1.jpg,7,throwing_frisby,7,Throwing Frisbee,0.9442929029464722,True,7,Throwing Frisbee,0.6166701912879944,True,7,Throwing Frisbee,0.9960319399833679,True
+s40_1c15d833db9bce712018,images/val/s40_1c15d833db9bce712018.jpg,0,climbing,0,Climbing,0.874591052532196,True,0,Climbing,0.9953885078430176,True,0,Climbing,0.99910968542099,True
+s40_1d13218e9f7091f78bab,images/val/s40_1d13218e9f7091f78bab.jpg,1,jumping,1,Jumping,0.9797321557998657,True,1,Jumping,0.9336317777633667,True,1,Jumping,0.9979562759399414,True
+s40_21b8df1d9d9c4dded03f,images/val/s40_21b8df1d9d9c4dded03f.jpg,5,running,5,Running,0.5842737555503845,True,7,Throwing Frisbee,0.6175106763839722,False,5,Running,0.48065492510795593,True
+s40_22d21ba5dca59ebea834,images/val/s40_22d21ba5dca59ebea834.jpg,5,running,5,Running,0.7817254066467285,True,5,Running,0.7356976270675659,True,5,Running,0.9995075464248657,True
+s40_260dddc2fd04ae4782e1,images/val/s40_260dddc2fd04ae4782e1.jpg,6,shooting_an_arrow,6,Shooting Arrow,0.9431744813919067,True,6,Shooting Arrow,0.9997724890708923,True,6,Shooting Arrow,0.9999257326126099,True
+s40_2bed7f28812f4c7a35c0,images/val/s40_2bed7f28812f4c7a35c0.jpg,5,running,1,Jumping,0.840110719203949,False,3,Riding Horse,0.5849092602729797,False,3,Riding Horse,0.9568415880203247,False
+s40_2e717688913ef8bce1e9,images/val/s40_2e717688913ef8bce1e9.jpg,6,shooting_an_arrow,7,Throwing Frisbee,0.9924672245979309,False,6,Shooting Arrow,0.9994016885757446,True,6,Shooting Arrow,0.999998927116394,True
+s40_2e9c7675ee4da86f76f7,images/val/s40_2e9c7675ee4da86f76f7.jpg,6,shooting_an_arrow,6,Shooting Arrow,0.9998579025268555,True,6,Shooting Arrow,0.9990622401237488,True,6,Shooting Arrow,0.9992702603340149,True
+s40_344e62dcdb420d2cfed3,images/val/s40_344e62dcdb420d2cfed3.jpg,5,running,1,Jumping,0.345877081155777,False,5,Running,0.9480738043785095,True,5,Running,0.9590796232223511,True
+s40_36e4d02cffdcd6aa5cce,images/val/s40_36e4d02cffdcd6aa5cce.jpg,2,riding_a_bike,2,Riding Bike,0.9861437082290649,True,2,Riding Bike,0.907316267490387,True,2,Riding Bike,0.9951903820037842,True
+s40_3727d11bf7fd75c4c550,images/val/s40_3727d11bf7fd75c4c550.jpg,4,rowing_a_boat,4,Rowing Boat,0.92023104429245,True,4,Rowing Boat,0.982613205909729,True,4,Rowing Boat,0.9984102249145508,True
+s40_376cb9d1e5667b21b93b,images/val/s40_376cb9d1e5667b21b93b.jpg,1,jumping,3,Riding Horse,0.8944629430770874,False,1,Jumping,0.8110071420669556,True,1,Jumping,0.5771961808204651,True
+s40_380f077384e739624b73,images/val/s40_380f077384e739624b73.jpg,3,riding_a_horse,3,Riding Horse,0.9998773336410522,True,3,Riding Horse,0.9984702467918396,True,3,Riding Horse,0.9999804496765137,True
+s40_390b537ae10817b61237,images/val/s40_390b537ae10817b61237.jpg,6,shooting_an_arrow,5,Running,0.979743480682373,False,6,Shooting Arrow,0.8622229099273682,True,6,Shooting Arrow,0.9951741099357605,True
+s40_3b77ca8207bd1f31e6aa,images/val/s40_3b77ca8207bd1f31e6aa.jpg,3,riding_a_horse,2,Riding Bike,0.8325022459030151,False,2,Riding Bike,0.27408671379089355,False,2,Riding Bike,0.6493706703186035,False
+s40_3dbb421f822c027ac040,images/val/s40_3dbb421f822c027ac040.jpg,4,rowing_a_boat,4,Rowing Boat,0.993813157081604,True,4,Rowing Boat,0.9947315454483032,True,4,Rowing Boat,0.9996353387832642,True
+s40_4008967e9f1786f74e40,images/val/s40_4008967e9f1786f74e40.jpg,6,shooting_an_arrow,7,Throwing Frisbee,0.7243508100509644,False,6,Shooting Arrow,0.37615862488746643,True,1,Jumping,0.7353843450546265,False
+s40_4038ccd3814974d07dd6,images/val/s40_4038ccd3814974d07dd6.jpg,6,shooting_an_arrow,6,Shooting Arrow,0.9649816751480103,True,6,Shooting Arrow,0.8597958087921143,True,6,Shooting Arrow,0.49828505516052246,True
+s40_441f7fc0d5bc3967a998,images/val/s40_441f7fc0d5bc3967a998.jpg,0,climbing,0,Climbing,0.9998621940612793,True,0,Climbing,0.9916691780090332,True,0,Climbing,0.9996470212936401,True
+s40_448353d15304d976b8a1,images/val/s40_448353d15304d976b8a1.jpg,3,riding_a_horse,2,Riding Bike,0.8829202651977539,False,3,Riding Horse,0.8879601359367371,True,3,Riding Horse,0.9946135878562927,True
+s40_4b8a17c55def90c06959,images/val/s40_4b8a17c55def90c06959.jpg,0,climbing,0,Climbing,0.9620233774185181,True,0,Climbing,0.9710559844970703,True,0,Climbing,0.9999445676803589,True
+s40_4ddcf0e6f718411e23b1,images/val/s40_4ddcf0e6f718411e23b1.jpg,6,shooting_an_arrow,3,Riding Horse,0.8560229539871216,False,6,Shooting Arrow,0.9960860013961792,True,6,Shooting Arrow,0.9993380904197693,True
+s40_4e023fc0d819110e9944,images/val/s40_4e023fc0d819110e9944.jpg,1,jumping,6,Shooting Arrow,0.7330015301704407,False,0,Climbing,0.570667564868927,False,1,Jumping,0.35184741020202637,True
+s40_4ea34e7785bd0d2f6132,images/val/s40_4ea34e7785bd0d2f6132.jpg,4,rowing_a_boat,4,Rowing Boat,0.9885594248771667,True,4,Rowing Boat,0.9810008406639099,True,4,Rowing Boat,0.9992430210113525,True
+s40_4f3eecf930648b7ab1b2,images/val/s40_4f3eecf930648b7ab1b2.jpg,4,rowing_a_boat,4,Rowing Boat,0.9986078143119812,True,4,Rowing Boat,0.9763521552085876,True,4,Rowing Boat,0.9977454543113708,True
+s40_4fa745891ca910b68b2c,images/val/s40_4fa745891ca910b68b2c.jpg,1,jumping,3,Riding Horse,0.6464198231697083,False,1,Jumping,0.5146656632423401,True,1,Jumping,0.5997298359870911,True
+s40_50aa0913a452c7b53045,images/val/s40_50aa0913a452c7b53045.jpg,7,throwing_frisby,7,Throwing Frisbee,0.8463425636291504,True,7,Throwing Frisbee,0.8841389417648315,True,7,Throwing Frisbee,0.9953187108039856,True
+s40_52c1c18a5c21a2746a04,images/val/s40_52c1c18a5c21a2746a04.jpg,4,rowing_a_boat,6,Shooting Arrow,0.7809846997261047,False,4,Rowing Boat,0.7358191609382629,True,4,Rowing Boat,0.4818344712257385,True
+s40_57d67bac5b0c01f94319,images/val/s40_57d67bac5b0c01f94319.jpg,4,rowing_a_boat,4,Rowing Boat,0.9462018013000488,True,4,Rowing Boat,0.9799098968505859,True,4,Rowing Boat,0.9996994733810425,True
+s40_57fbff74bea160911ee4,images/val/s40_57fbff74bea160911ee4.jpg,1,jumping,1,Jumping,0.7638546824455261,True,1,Jumping,0.571641743183136,True,1,Jumping,0.6877308487892151,True
+s40_58104c0deac415a346c0,images/val/s40_58104c0deac415a346c0.jpg,5,running,7,Throwing Frisbee,0.804546594619751,False,5,Running,0.9316174983978271,True,5,Running,0.9984731078147888,True
+s40_5818907476e9a90587fc,images/val/s40_5818907476e9a90587fc.jpg,0,climbing,6,Shooting Arrow,0.6926864981651306,False,0,Climbing,0.996311366558075,True,0,Climbing,0.9981693029403687,True
+s40_5a70a924d26aadf2fdaf,images/val/s40_5a70a924d26aadf2fdaf.jpg,1,jumping,1,Jumping,0.7622708082199097,True,1,Jumping,0.9622365832328796,True,1,Jumping,0.9966949224472046,True
+s40_5b2b71faec235d580945,images/val/s40_5b2b71faec235d580945.jpg,6,shooting_an_arrow,7,Throwing Frisbee,0.9160405397415161,False,6,Shooting Arrow,0.8543290495872498,True,6,Shooting Arrow,0.6289803981781006,True
+s40_63734a4aaddc557ed7d8,images/val/s40_63734a4aaddc557ed7d8.jpg,1,jumping,1,Jumping,0.5313341021537781,True,1,Jumping,0.5119967460632324,True,7,Throwing Frisbee,0.6201345324516296,False
+s40_639459f79e5140315b9e,images/val/s40_639459f79e5140315b9e.jpg,6,shooting_an_arrow,7,Throwing Frisbee,0.8844057321548462,False,6,Shooting Arrow,0.616671085357666,True,7,Throwing Frisbee,0.6028257012367249,False
+s40_6721ecf9866f7c8b8731,images/val/s40_6721ecf9866f7c8b8731.jpg,3,riding_a_horse,0,Climbing,0.7935195565223694,False,3,Riding Horse,0.9946609139442444,True,3,Riding Horse,0.9999556541442871,True
+s40_6889bbb7cecad7b3385b,images/val/s40_6889bbb7cecad7b3385b.jpg,5,running,5,Running,0.5384581089019775,True,5,Running,0.8228253126144409,True,5,Running,0.9987475872039795,True
+s40_6a57733cf098a8d69fa7,images/val/s40_6a57733cf098a8d69fa7.jpg,5,running,5,Running,0.9737548828125,True,2,Riding Bike,0.3511587977409363,False,2,Riding Bike,0.6304872632026672,False
+s40_6bfee54ec27be3740da9,images/val/s40_6bfee54ec27be3740da9.jpg,2,riding_a_bike,5,Running,0.4459128975868225,False,2,Riding Bike,0.9962942004203796,True,2,Riding Bike,0.9998140931129456,True
+s40_6e58f8b80c338761eae5,images/val/s40_6e58f8b80c338761eae5.jpg,7,throwing_frisby,2,Riding Bike,0.5141217708587646,False,6,Shooting Arrow,0.8831091523170471,False,1,Jumping,0.9352138042449951,False
+s40_6fd2b4cb50a586c139ef,images/val/s40_6fd2b4cb50a586c139ef.jpg,4,rowing_a_boat,4,Rowing Boat,0.9884793162345886,True,4,Rowing Boat,0.9987288117408752,True,4,Rowing Boat,0.9995710253715515,True
+s40_708a76fa88d20dd6bbcc,images/val/s40_708a76fa88d20dd6bbcc.jpg,6,shooting_an_arrow,6,Shooting Arrow,0.9630353450775146,True,6,Shooting Arrow,0.49551019072532654,True,6,Shooting Arrow,0.45383208990097046,True
+s40_75295295a8824a93a863,images/val/s40_75295295a8824a93a863.jpg,3,riding_a_horse,1,Jumping,0.8414888381958008,False,3,Riding Horse,0.48645442724227905,True,4,Rowing Boat,0.6186172962188721,False
+s40_756aa15d6705a6d94e79,images/val/s40_756aa15d6705a6d94e79.jpg,4,rowing_a_boat,4,Rowing Boat,0.981360673904419,True,4,Rowing Boat,0.9937523007392883,True,4,Rowing Boat,0.9996718168258667,True
+s40_757cd2c2e901b3c9e625,images/val/s40_757cd2c2e901b3c9e625.jpg,6,shooting_an_arrow,6,Shooting Arrow,0.9976534247398376,True,6,Shooting Arrow,0.5812080502510071,True,6,Shooting Arrow,0.9955840706825256,True
+s40_762c544fe130664503fe,images/val/s40_762c544fe130664503fe.jpg,1,jumping,5,Running,0.5253426432609558,False,1,Jumping,0.5676952004432678,True,5,Running,0.8177186846733093,False
+s40_762db609e8b8058c8e3e,images/val/s40_762db609e8b8058c8e3e.jpg,5,running,5,Running,0.9841126799583435,True,5,Running,0.9564639925956726,True,5,Running,0.9999867677688599,True
+s40_7c5c2aed2c981b024b2b,images/val/s40_7c5c2aed2c981b024b2b.jpg,3,riding_a_horse,2,Riding Bike,0.8904541730880737,False,3,Riding Horse,0.984987199306488,True,3,Riding Horse,0.9993157386779785,True
+s40_7c7994ed193a3535ddc3,images/val/s40_7c7994ed193a3535ddc3.jpg,5,running,7,Throwing Frisbee,0.7692256569862366,False,7,Throwing Frisbee,0.7309401631355286,False,7,Throwing Frisbee,0.933946967124939,False
+s40_7d86e38dedf2410e2847,images/val/s40_7d86e38dedf2410e2847.jpg,5,running,1,Jumping,0.7657743692398071,False,1,Jumping,0.4197068512439728,False,6,Shooting Arrow,0.4845980703830719,False
+s40_7ec1b912dd51dd0717c6,images/val/s40_7ec1b912dd51dd0717c6.jpg,1,jumping,5,Running,0.5599942207336426,False,1,Jumping,0.5869734883308411,True,1,Jumping,0.7329016327857971,True
+s40_7ef8b176d9c4f946792a,images/val/s40_7ef8b176d9c4f946792a.jpg,0,climbing,0,Climbing,0.48573654890060425,True,0,Climbing,0.905530571937561,True,0,Climbing,0.9894290566444397,True
+s40_7efa6b8e74daf839cf70,images/val/s40_7efa6b8e74daf839cf70.jpg,5,running,1,Jumping,0.9330844283103943,False,5,Running,0.7014927864074707,True,5,Running,0.9209433794021606,True
+s40_80a7bd9f95f26aa09154,images/val/s40_80a7bd9f95f26aa09154.jpg,6,shooting_an_arrow,3,Riding Horse,0.7907716631889343,False,6,Shooting Arrow,0.9895442724227905,True,6,Shooting Arrow,0.962424099445343,True
+s40_826121b2dcffa7720b24,images/val/s40_826121b2dcffa7720b24.jpg,7,throwing_frisby,7,Throwing Frisbee,0.9810209274291992,True,7,Throwing Frisbee,0.687120258808136,True,7,Throwing Frisbee,0.9831339120864868,True
+s40_82778c69480db6aeea8c,images/val/s40_82778c69480db6aeea8c.jpg,7,throwing_frisby,7,Throwing Frisbee,0.8943858742713928,True,7,Throwing Frisbee,0.8401197791099548,True,7,Throwing Frisbee,0.9991402626037598,True
+s40_8322703e7c95fe1b54ba,images/val/s40_8322703e7c95fe1b54ba.jpg,0,climbing,0,Climbing,0.9197719693183899,True,0,Climbing,0.812384307384491,True,0,Climbing,0.9992803931236267,True
+s40_8343780e88cfc385326c,images/val/s40_8343780e88cfc385326c.jpg,1,jumping,1,Jumping,0.5598471164703369,True,1,Jumping,0.8979803919792175,True,1,Jumping,0.9986248016357422,True
+s40_835fb4340fd1f1fa3934,images/val/s40_835fb4340fd1f1fa3934.jpg,2,riding_a_bike,2,Riding Bike,0.6687107682228088,True,2,Riding Bike,0.8521661162376404,True,2,Riding Bike,0.5228118300437927,True
+s40_83d254c4e207f6f6a67d,images/val/s40_83d254c4e207f6f6a67d.jpg,0,climbing,0,Climbing,0.5487769246101379,True,0,Climbing,0.9457727670669556,True,0,Climbing,0.9939892292022705,True
+s40_84ace49d03b54d55609b,images/val/s40_84ace49d03b54d55609b.jpg,1,jumping,5,Running,0.9892082810401917,False,1,Jumping,0.9015437960624695,True,1,Jumping,0.9980497360229492,True
+s40_857041f8f4f67b7d70c2,images/val/s40_857041f8f4f67b7d70c2.jpg,3,riding_a_horse,4,Rowing Boat,0.9844303727149963,False,3,Riding Horse,0.9771047234535217,True,3,Riding Horse,0.9992924928665161,True
+s40_88221c281b4b2ced89fd,images/val/s40_88221c281b4b2ced89fd.jpg,0,climbing,0,Climbing,0.9985226988792419,True,0,Climbing,0.9205266237258911,True,0,Climbing,0.9999812841415405,True
+s40_89902a1cfc8e7d2a166e,images/val/s40_89902a1cfc8e7d2a166e.jpg,7,throwing_frisby,7,Throwing Frisbee,0.97366863489151,True,7,Throwing Frisbee,0.9846578240394592,True,7,Throwing Frisbee,0.9991033673286438,True
+s40_8c81c5c0ef511c5dd0ea,images/val/s40_8c81c5c0ef511c5dd0ea.jpg,4,rowing_a_boat,4,Rowing Boat,0.9755050539970398,True,4,Rowing Boat,0.9990276098251343,True,4,Rowing Boat,0.9996689558029175,True
+s40_8ddb8266d5b48a05d5c6,images/val/s40_8ddb8266d5b48a05d5c6.jpg,4,rowing_a_boat,4,Rowing Boat,0.9286880493164062,True,4,Rowing Boat,0.9990530610084534,True,4,Rowing Boat,0.9999822378158569,True
+s40_919e4aa5f288ad3fb3d6,images/val/s40_919e4aa5f288ad3fb3d6.jpg,4,rowing_a_boat,4,Rowing Boat,0.8142706155776978,True,4,Rowing Boat,0.9932895302772522,True,4,Rowing Boat,0.9988971948623657,True
+s40_93c5cbd1cba6d3cdb452,images/val/s40_93c5cbd1cba6d3cdb452.jpg,0,climbing,0,Climbing,0.9977812170982361,True,0,Climbing,0.9960202574729919,True,0,Climbing,0.9999814033508301,True
+s40_93d42d96a469ad1c53cb,images/val/s40_93d42d96a469ad1c53cb.jpg,1,jumping,1,Jumping,0.7172971963882446,True,1,Jumping,0.6058362722396851,True,1,Jumping,0.7900753617286682,True
+s40_96ea95477e203f748299,images/val/s40_96ea95477e203f748299.jpg,1,jumping,7,Throwing Frisbee,0.7198807597160339,False,1,Jumping,0.6452463865280151,True,1,Jumping,0.967742383480072,True
+s40_9beb737fdfa29919a623,images/val/s40_9beb737fdfa29919a623.jpg,5,running,0,Climbing,0.7610451579093933,False,1,Jumping,0.6130734086036682,False,5,Running,0.6564552783966064,True
+s40_9bfdfaf8f6c318e97e31,images/val/s40_9bfdfaf8f6c318e97e31.jpg,7,throwing_frisby,7,Throwing Frisbee,0.5768358111381531,True,6,Shooting Arrow,0.6081805229187012,False,7,Throwing Frisbee,0.6799214482307434,True
+s40_9caa2f0b13cbb4e542b6,images/val/s40_9caa2f0b13cbb4e542b6.jpg,3,riding_a_horse,3,Riding Horse,0.83652263879776,True,3,Riding Horse,0.9797353744506836,True,3,Riding Horse,0.9997656941413879,True
+s40_9f7cfce8f2c41e3566b6,images/val/s40_9f7cfce8f2c41e3566b6.jpg,6,shooting_an_arrow,5,Running,0.5427961349487305,False,6,Shooting Arrow,0.996798574924469,True,6,Shooting Arrow,0.9994058609008789,True
+s40_a09f3ca5518ee84e627d,images/val/s40_a09f3ca5518ee84e627d.jpg,4,rowing_a_boat,4,Rowing Boat,0.9993233680725098,True,4,Rowing Boat,0.9955123066902161,True,4,Rowing Boat,0.9990735054016113,True
+s40_a248b7badcab97937a8f,images/val/s40_a248b7badcab97937a8f.jpg,3,riding_a_horse,3,Riding Horse,0.9195883274078369,True,3,Riding Horse,0.9981335997581482,True,3,Riding Horse,0.9970820546150208,True
+s40_a265dd88fa855417f7f7,images/val/s40_a265dd88fa855417f7f7.jpg,0,climbing,0,Climbing,0.9414502382278442,True,0,Climbing,0.9478919506072998,True,0,Climbing,0.9998561143875122,True
+s40_a40547ba05c2ec1c9883,images/val/s40_a40547ba05c2ec1c9883.jpg,7,throwing_frisby,6,Shooting Arrow,0.5757718086242676,False,7,Throwing Frisbee,0.6817793846130371,True,7,Throwing Frisbee,0.9865266680717468,True
+s40_a4a8b9ff073bab267660,images/val/s40_a4a8b9ff073bab267660.jpg,2,riding_a_bike,2,Riding Bike,0.996351957321167,True,2,Riding Bike,0.9540969133377075,True,2,Riding Bike,0.9991497993469238,True
+s40_a6118297a7b5980f7324,images/val/s40_a6118297a7b5980f7324.jpg,7,throwing_frisby,7,Throwing Frisbee,0.5800093412399292,True,7,Throwing Frisbee,0.5240446329116821,True,7,Throwing Frisbee,0.9919998645782471,True
+s40_a7dc556f366d022f59c3,images/val/s40_a7dc556f366d022f59c3.jpg,3,riding_a_horse,4,Rowing Boat,0.7540603280067444,False,3,Riding Horse,0.9851025342941284,True,3,Riding Horse,0.9998095631599426,True
+s40_ab2c69ebf48485f4e2f7,images/val/s40_ab2c69ebf48485f4e2f7.jpg,2,riding_a_bike,2,Riding Bike,0.6097575426101685,True,2,Riding Bike,0.955386221408844,True,2,Riding Bike,0.996954083442688,True
+s40_abe022ed6549fbcf8972,images/val/s40_abe022ed6549fbcf8972.jpg,4,rowing_a_boat,4,Rowing Boat,0.9998495578765869,True,4,Rowing Boat,0.9908664226531982,True,4,Rowing Boat,0.9999604225158691,True
+s40_abffb3b674ee517a2441,images/val/s40_abffb3b674ee517a2441.jpg,1,jumping,1,Jumping,0.9928179979324341,True,1,Jumping,0.8790504336357117,True,1,Jumping,0.9867624640464783,True
+s40_aca9ef59f0f98c0e6161,images/val/s40_aca9ef59f0f98c0e6161.jpg,2,riding_a_bike,2,Riding Bike,0.9989705085754395,True,2,Riding Bike,0.997138261795044,True,2,Riding Bike,0.9999412298202515,True
+s40_ae40c531b1efbd378b10,images/val/s40_ae40c531b1efbd378b10.jpg,7,throwing_frisby,7,Throwing Frisbee,0.8332918286323547,True,1,Jumping,0.46346515417099,False,7,Throwing Frisbee,0.8325950503349304,True
+s40_af3315ca8c3399ed803e,images/val/s40_af3315ca8c3399ed803e.jpg,5,running,5,Running,0.6553972959518433,True,5,Running,0.9732100963592529,True,5,Running,0.9992125034332275,True
+s40_b06c4ce33849965fd97a,images/val/s40_b06c4ce33849965fd97a.jpg,2,riding_a_bike,2,Riding Bike,0.9730412364006042,True,2,Riding Bike,0.9884212017059326,True,2,Riding Bike,0.9967149496078491,True
+s40_b0893eb2217211b45dc8,images/val/s40_b0893eb2217211b45dc8.jpg,4,rowing_a_boat,4,Rowing Boat,0.9422958493232727,True,4,Rowing Boat,0.9935424327850342,True,4,Rowing Boat,0.9995414018630981,True
+s40_b217758595ca2e048307,images/val/s40_b217758595ca2e048307.jpg,3,riding_a_horse,3,Riding Horse,0.8400065898895264,True,3,Riding Horse,0.9887887835502625,True,3,Riding Horse,0.9999666213989258,True
+s40_b44a82f7664c7de7fd3c,images/val/s40_b44a82f7664c7de7fd3c.jpg,5,running,5,Running,0.9363011121749878,True,5,Running,0.7836939096450806,True,5,Running,0.933975875377655,True
+s40_bc125df52b87c67e0136,images/val/s40_bc125df52b87c67e0136.jpg,1,jumping,1,Jumping,0.9839670062065125,True,1,Jumping,0.7934550046920776,True,1,Jumping,0.9580596089363098,True
+s40_bcba8346d33b780ec027,images/val/s40_bcba8346d33b780ec027.jpg,0,climbing,6,Shooting Arrow,0.9573639035224915,False,0,Climbing,0.8743776679039001,True,0,Climbing,0.9991779923439026,True
+s40_bd7305a4d4dc2b1bad1c,images/val/s40_bd7305a4d4dc2b1bad1c.jpg,3,riding_a_horse,3,Riding Horse,0.9759953618049622,True,3,Riding Horse,0.8175913095474243,True,3,Riding Horse,0.9957376718521118,True
+s40_bf0059d1f8273306f6ed,images/val/s40_bf0059d1f8273306f6ed.jpg,2,riding_a_bike,2,Riding Bike,0.8765953183174133,True,2,Riding Bike,0.9369809031486511,True,2,Riding Bike,0.9476355314254761,True
+s40_bf3194b084b1b66ea79a,images/val/s40_bf3194b084b1b66ea79a.jpg,3,riding_a_horse,4,Rowing Boat,0.8461253643035889,False,3,Riding Horse,0.9530083537101746,True,3,Riding Horse,0.9985392093658447,True
+s40_c0e6b9c1a1f32f7e3327,images/val/s40_c0e6b9c1a1f32f7e3327.jpg,0,climbing,0,Climbing,0.9999788999557495,True,0,Climbing,0.9984830021858215,True,0,Climbing,0.9999912977218628,True
+s40_c11687f39d3d56c7b497,images/val/s40_c11687f39d3d56c7b497.jpg,6,shooting_an_arrow,7,Throwing Frisbee,0.5844254493713379,False,6,Shooting Arrow,0.9978386759757996,True,6,Shooting Arrow,0.9998164772987366,True
+s40_c5c2d987d3b7a73c835a,images/val/s40_c5c2d987d3b7a73c835a.jpg,6,shooting_an_arrow,7,Throwing Frisbee,0.8103042840957642,False,6,Shooting Arrow,0.8836360573768616,True,6,Shooting Arrow,0.9625751972198486,True
+s40_c7af4ac36a1f3b34686d,images/val/s40_c7af4ac36a1f3b34686d.jpg,5,running,7,Throwing Frisbee,0.6773194074630737,False,5,Running,0.9329313635826111,True,5,Running,0.9902662634849548,True
+s40_c7fd32d69638fa9645eb,images/val/s40_c7fd32d69638fa9645eb.jpg,2,riding_a_bike,4,Rowing Boat,0.8883869647979736,False,2,Riding Bike,0.9601423144340515,True,2,Riding Bike,0.9993764758110046,True
+s40_c8b963fa206c2294b784,images/val/s40_c8b963fa206c2294b784.jpg,3,riding_a_horse,1,Jumping,0.7908432483673096,False,2,Riding Bike,0.5078457593917847,False,2,Riding Bike,0.38341912627220154,False
+s40_c999a3ca83a1d6badb37,images/val/s40_c999a3ca83a1d6badb37.jpg,2,riding_a_bike,6,Shooting Arrow,0.8180023431777954,False,2,Riding Bike,0.9932973980903625,True,2,Riding Bike,0.9990189075469971,True
+s40_ca8cd509373e4220c5d6,images/val/s40_ca8cd509373e4220c5d6.jpg,4,rowing_a_boat,4,Rowing Boat,0.9999710321426392,True,4,Rowing Boat,0.9978971481323242,True,4,Rowing Boat,0.9997443556785583,True
+s40_ccba8fe2ae8efc4cdbcf,images/val/s40_ccba8fe2ae8efc4cdbcf.jpg,4,rowing_a_boat,4,Rowing Boat,0.996211051940918,True,4,Rowing Boat,0.9426612854003906,True,4,Rowing Boat,0.9953029155731201,True
+s40_cd2c634d5f3bdee3771f,images/val/s40_cd2c634d5f3bdee3771f.jpg,6,shooting_an_arrow,6,Shooting Arrow,0.904982328414917,True,6,Shooting Arrow,0.9953157901763916,True,6,Shooting Arrow,0.9947273135185242,True
+s40_ce0e81ad4fd2fa8a14e1,images/val/s40_ce0e81ad4fd2fa8a14e1.jpg,0,climbing,0,Climbing,0.9812151789665222,True,0,Climbing,0.983111560344696,True,0,Climbing,0.999963641166687,True
+s40_cfdb888b73fe325d459f,images/val/s40_cfdb888b73fe325d459f.jpg,5,running,2,Riding Bike,0.42161130905151367,False,0,Climbing,0.4378291964530945,False,0,Climbing,0.5797322988510132,False
+s40_d0b689bfb19d878e5bfe,images/val/s40_d0b689bfb19d878e5bfe.jpg,2,riding_a_bike,3,Riding Horse,0.9045488834381104,False,2,Riding Bike,0.9945411086082458,True,2,Riding Bike,0.999786913394928,True
+s40_d1d1175e26edf4a368a2,images/val/s40_d1d1175e26edf4a368a2.jpg,7,throwing_frisby,5,Running,0.9625962972640991,False,6,Shooting Arrow,0.38667118549346924,False,7,Throwing Frisbee,0.38530176877975464,True
+s40_d28d67efec96fd12abe0,images/val/s40_d28d67efec96fd12abe0.jpg,7,throwing_frisby,7,Throwing Frisbee,0.8979761600494385,True,7,Throwing Frisbee,0.7791503071784973,True,7,Throwing Frisbee,0.9996393918991089,True
+s40_d2b8daf5bfe0ece8d9ca,images/val/s40_d2b8daf5bfe0ece8d9ca.jpg,3,riding_a_horse,5,Running,0.4711548686027527,False,3,Riding Horse,0.9987879395484924,True,3,Riding Horse,0.9991523027420044,True
+s40_d35a6dcf70eee9629f0e,images/val/s40_d35a6dcf70eee9629f0e.jpg,7,throwing_frisby,7,Throwing Frisbee,0.9250144958496094,True,7,Throwing Frisbee,0.9652734994888306,True,7,Throwing Frisbee,0.9996278285980225,True
+s40_d536f75541f942ce5811,images/val/s40_d536f75541f942ce5811.jpg,0,climbing,1,Jumping,0.9305459260940552,False,0,Climbing,0.6693509221076965,True,0,Climbing,0.9998944997787476,True
+s40_d65d908e3fb75ad92774,images/val/s40_d65d908e3fb75ad92774.jpg,0,climbing,0,Climbing,0.5877313613891602,True,0,Climbing,0.5781058073043823,True,0,Climbing,0.9100497364997864,True
+s40_d7c54df0808ea004ad35,images/val/s40_d7c54df0808ea004ad35.jpg,2,riding_a_bike,2,Riding Bike,0.9052656292915344,True,2,Riding Bike,0.7389997243881226,True,2,Riding Bike,0.9021142721176147,True
+s40_d8f163afe45340205ade,images/val/s40_d8f163afe45340205ade.jpg,3,riding_a_horse,1,Jumping,0.8659734129905701,False,3,Riding Horse,0.8194237947463989,True,3,Riding Horse,0.9892428517341614,True
+s40_d8fd42cc88afb1da2c3f,images/val/s40_d8fd42cc88afb1da2c3f.jpg,2,riding_a_bike,2,Riding Bike,0.9975420236587524,True,2,Riding Bike,0.9948017597198486,True,2,Riding Bike,0.9996570348739624,True
+s40_da63ddec4b0b083436a3,images/val/s40_da63ddec4b0b083436a3.jpg,7,throwing_frisby,6,Shooting Arrow,0.7216312289237976,False,7,Throwing Frisbee,0.9693620204925537,True,7,Throwing Frisbee,0.9983211159706116,True
+s40_db96820a3acb7ace149b,images/val/s40_db96820a3acb7ace149b.jpg,2,riding_a_bike,2,Riding Bike,0.9711260199546814,True,2,Riding Bike,0.9984573125839233,True,2,Riding Bike,0.9999537467956543,True
+s40_dbce57802f5b11dc81f9,images/val/s40_dbce57802f5b11dc81f9.jpg,7,throwing_frisby,7,Throwing Frisbee,0.7412949800491333,True,7,Throwing Frisbee,0.9959410429000854,True,7,Throwing Frisbee,0.9999724626541138,True
+s40_dd8a5579f2fa0952cb64,images/val/s40_dd8a5579f2fa0952cb64.jpg,4,rowing_a_boat,3,Riding Horse,0.6991251111030579,False,4,Rowing Boat,0.9747430086135864,True,4,Rowing Boat,0.9994691014289856,True
+s40_de66f7549b2b328029a3,images/val/s40_de66f7549b2b328029a3.jpg,6,shooting_an_arrow,6,Shooting Arrow,0.9971131086349487,True,6,Shooting Arrow,0.9681155681610107,True,6,Shooting Arrow,0.9980389475822449,True
+s40_e06c808bd5c98dc6c587,images/val/s40_e06c808bd5c98dc6c587.jpg,2,riding_a_bike,3,Riding Horse,0.7115062475204468,False,2,Riding Bike,0.9852451682090759,True,2,Riding Bike,0.9997604489326477,True
+s40_e1ed52f5ad8464e395f3,images/val/s40_e1ed52f5ad8464e395f3.jpg,3,riding_a_horse,1,Jumping,0.9853010773658752,False,3,Riding Horse,0.9086935520172119,True,3,Riding Horse,0.8496848344802856,True
+s40_e2709cc33291158aec9b,images/val/s40_e2709cc33291158aec9b.jpg,1,jumping,1,Jumping,0.6274220943450928,True,1,Jumping,0.3696978986263275,True,1,Jumping,0.36213812232017517,True
+s40_ea122b3d0fc93ab8e42c,images/val/s40_ea122b3d0fc93ab8e42c.jpg,2,riding_a_bike,2,Riding Bike,0.4728437662124634,True,2,Riding Bike,0.9975989460945129,True,2,Riding Bike,0.9999687671661377,True
+s40_eaf5e3ddc53a6916f975,images/val/s40_eaf5e3ddc53a6916f975.jpg,6,shooting_an_arrow,6,Shooting Arrow,0.9952977299690247,True,6,Shooting Arrow,0.9786816239356995,True,6,Shooting Arrow,0.9996801614761353,True
+s40_eb0faa9c45b3afa3ec78,images/val/s40_eb0faa9c45b3afa3ec78.jpg,3,riding_a_horse,3,Riding Horse,0.45672228932380676,True,3,Riding Horse,0.9878482818603516,True,3,Riding Horse,0.9770293831825256,True
+s40_eb2bf4d7a16c587334ac,images/val/s40_eb2bf4d7a16c587334ac.jpg,7,throwing_frisby,7,Throwing Frisbee,0.954838752746582,True,7,Throwing Frisbee,0.9312195181846619,True,7,Throwing Frisbee,0.9990837574005127,True
+s40_ebbb3d861216757f54fb,images/val/s40_ebbb3d861216757f54fb.jpg,4,rowing_a_boat,4,Rowing Boat,0.9934273958206177,True,4,Rowing Boat,0.982995331287384,True,4,Rowing Boat,0.9993494153022766,True
+s40_ec8bdf72936259503c33,images/val/s40_ec8bdf72936259503c33.jpg,3,riding_a_horse,2,Riding Bike,0.8672943711280823,False,3,Riding Horse,0.9459896087646484,True,3,Riding Horse,0.9985287189483643,True
+s40_ed472c2743bee59bd543,images/val/s40_ed472c2743bee59bd543.jpg,7,throwing_frisby,7,Throwing Frisbee,0.9829832315444946,True,7,Throwing Frisbee,0.5286969542503357,True,7,Throwing Frisbee,0.9952021837234497,True
+s40_f15ed94d85c5aecd8d69,images/val/s40_f15ed94d85c5aecd8d69.jpg,7,throwing_frisby,6,Shooting Arrow,0.6823644042015076,False,6,Shooting Arrow,0.6368464827537537,False,1,Jumping,0.7257393598556519,False
+s40_f19bbfc4498a1929c0a3,images/val/s40_f19bbfc4498a1929c0a3.jpg,5,running,5,Running,0.6841549873352051,True,5,Running,0.34542563557624817,True,5,Running,0.49181246757507324,True
+s40_f3f9c59e978b1614abdf,images/val/s40_f3f9c59e978b1614abdf.jpg,2,riding_a_bike,6,Shooting Arrow,0.8312740325927734,False,2,Riding Bike,0.4295516610145569,True,2,Riding Bike,0.5945515036582947,True
+s40_f603542e66b1ce417813,images/val/s40_f603542e66b1ce417813.jpg,1,jumping,5,Running,0.968925952911377,False,1,Jumping,0.8076683878898621,True,1,Jumping,0.9952372312545776,True
+s40_f73e1058a4cdef838618,images/val/s40_f73e1058a4cdef838618.jpg,6,shooting_an_arrow,7,Throwing Frisbee,0.7914906144142151,False,6,Shooting Arrow,0.9876619577407837,True,6,Shooting Arrow,0.9998441934585571,True
+s40_f78b44150d68a72bd13d,images/val/s40_f78b44150d68a72bd13d.jpg,1,jumping,1,Jumping,0.9338853359222412,True,1,Jumping,0.5957769155502319,True,1,Jumping,0.9448094367980957,True
+s40_f96a52bb4bc0adaef957,images/val/s40_f96a52bb4bc0adaef957.jpg,5,running,5,Running,0.9212612509727478,True,5,Running,0.7275269627571106,True,5,Running,0.9946058392524719,True
+s40_fb35fe82871c1fb2e763,images/val/s40_fb35fe82871c1fb2e763.jpg,4,rowing_a_boat,4,Rowing Boat,0.9999445676803589,True,4,Rowing Boat,0.9999351501464844,True,4,Rowing Boat,0.9999450445175171,True
+s40_fbc9a5d6191d6fd48cf9,images/val/s40_fbc9a5d6191d6fd48cf9.jpg,4,rowing_a_boat,4,Rowing Boat,0.8697119355201721,True,1,Jumping,0.5221913456916809,False,4,Rowing Boat,0.9300355315208435,True
