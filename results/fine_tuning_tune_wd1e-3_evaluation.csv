@@ -1,0 +1,2 @@
+experiment_name,split,epoch,loss,accuracy,macro_precision,macro_recall,macro_f1
+fine_tuning_tune_wd1e-3,validation,14,0.4358973652124405,0.8875,0.8893655106970324,0.8875,0.8853243283809827

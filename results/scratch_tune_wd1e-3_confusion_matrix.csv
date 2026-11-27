@@ -1,0 +1,9 @@
+true_class,Climbing,Jumping,Riding Bike,Riding Horse,Rowing Boat,Running,Shooting Arrow,Throwing Frisbee
+Climbing,17,0,1,0,0,2,0,0
+Jumping,3,7,0,0,0,6,4,0
+Riding Bike,4,0,14,0,0,2,0,0
+Riding Horse,6,1,6,3,1,1,2,0
+Rowing Boat,0,1,0,1,12,4,2,0
+Running,1,6,3,0,0,7,0,3
+Shooting Arrow,8,0,1,0,0,2,7,2
+Throwing Frisbee,3,0,0,0,0,6,3,8

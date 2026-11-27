@@ -1,0 +1,2 @@
+experiment_name,split,epoch,loss,accuracy,macro_precision,macro_recall,macro_f1
+feature_extraction_tune_lr5e-4,validation,23,0.43766623735427856,0.875,0.8814231826413815,0.875,0.8703640502575125

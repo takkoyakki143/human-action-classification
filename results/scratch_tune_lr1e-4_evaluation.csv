@@ -1,0 +1,2 @@
+experiment_name,split,epoch,loss,accuracy,macro_precision,macro_recall,macro_f1
+scratch_tune_lr1e-4,validation,10,1.7649324178695678,0.4625,0.461704654638625,0.4625,0.4449845521274093

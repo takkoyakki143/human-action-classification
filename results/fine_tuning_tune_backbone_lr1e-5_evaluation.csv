@@ -1,0 +1,2 @@
+experiment_name,split,epoch,loss,accuracy,macro_precision,macro_recall,macro_f1
+fine_tuning_tune_backbone_lr1e-5,validation,20,0.45820319652557373,0.875,0.8750433395742321,0.875,0.8718651503535224

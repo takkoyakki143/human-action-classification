@@ -1,0 +1,4 @@
+strategy,n_experiments,baseline_f1,best_tuned_f1,f1_change,baseline_val_loss,best_tuned_val_loss,best_tuned_experiment,selected_experiment,selected_val_f1
+Scratch,4,0.5837300163968026,0.541219234969235,-0.04251078142756759,1.9175747632980347,2.026226449012756,scratch_tune_wd1e-4,scratch_baseline,0.5837300163968026
+Feature Extraction,3,0.8764759984426314,0.880675344224692,0.004199345782060604,0.40866210460662844,0.46991038918495176,feature_extraction_tune_lr3e-3,feature_extraction_baseline,0.8764759984426314
+Full Fine-tuning,4,0.8913422358126362,0.8913422358126362,0.0,0.4670885890722275,0.4658535748720169,fine_tuning_tune_wd1e-4,fine_tuning_baseline,0.8913422358126362

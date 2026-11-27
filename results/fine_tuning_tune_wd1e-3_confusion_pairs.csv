@@ -1,0 +1,16 @@
+true_class,predicted_class,count
+Riding Horse,Riding Bike,2
+Running,Climbing,2
+Throwing Frisbee,Jumping,2
+Jumping,Throwing Frisbee,1
+Jumping,Shooting Arrow,1
+Riding Horse,Rowing Boat,1
+Jumping,Running,1
+Running,Jumping,1
+Running,Riding Bike,1
+Running,Throwing Frisbee,1
+Running,Riding Horse,1
+Shooting Arrow,Climbing,1
+Shooting Arrow,Jumping,1
+Shooting Arrow,Throwing Frisbee,1
+Throwing Frisbee,Running,1
