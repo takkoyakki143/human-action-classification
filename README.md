@@ -77,7 +77,8 @@ human-action-classification/
 ├── notebooks/
 │   ├── 01_eda.ipynb
 │   ├── 02_preprocessing.ipynb
-│   └── 03_modeling.ipynb
+│   ├── 03_baseline.ipynb
+│   └── 04_improvement.ipynb
 ├── src/
 │   └── common.py
 ├── models/
@@ -112,7 +113,8 @@ Notebook 실행에 필요한 `ipykernel`은 프로젝트 의존성에 포함합�
 |---|---|---|
 | 1 | `notebooks/01_eda.ipynb` | 라벨·품질 점검, 클래스 분포, 해상도·종횡비, 중복·누수 점검, 전처리 방식 비교 |
 | 2 | `notebooks/02_preprocessing.ipynb` | 분할 검증, 공통 전처리(Resize + Padding, ImageNet 정규화) 정의, Dataset·DataLoader 구성 및 입력 확인 |
-| 3 | `notebooks/03_modeling.ipynb` | [작성 예정] 세 가지 학습 방식 비교, 오류 분석, 개선 실험, 최종 평가 |
+| 3 | `notebooks/03_baseline.ipynb` | 세 가지 학습 방식(Scratch / Feature Extraction / Fine-tuning) 기준선 비교, Seed 반복, Val 클래스별 성능·오분류 분석 |
+| 4 | `notebooks/04_improvement.ipynb` | [작성 예정] 오분류 분석 기반 개선 실험, 최종 모델 선정, Test 평가 |
 
 `01_eda.ipynb`의 9번 섹션(특징 벡터 기반 중복 점검)은 처음 실행할 때 torchvision의 ResNet18 ImageNet 가중치(`IMAGENET1K_V1`)를 인터넷에서 내려받습니다. 실행 환경은 NVIDIA GeForce RTX 5060 Laptop GPU(8GB)입니다.
 
