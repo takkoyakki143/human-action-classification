@@ -1,0 +1,2 @@
+experiment_name,split,epoch,loss,accuracy,macro_precision,macro_recall,macro_f1
+feature_extraction_baseline,validation,17,0.40866210460662844,0.88125,0.8889392572530445,0.88125,0.8764759984426314
