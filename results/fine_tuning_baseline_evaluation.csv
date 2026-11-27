@@ -1,0 +1,2 @@
+experiment_name,split,epoch,loss,accuracy,macro_precision,macro_recall,macro_f1
+fine_tuning_baseline,validation,26,0.4670885890722275,0.89375,0.8938101904134513,0.89375,0.8913422358126362
